@@ -30,7 +30,7 @@ Bot.init = function() {
 };
 
 Bot.initBot = function() {
-	this.bot = new DiscordJS.Client();
+	this..bot = new DiscordJS.Client();
 };
 
 Bot.reformatData = function() {
